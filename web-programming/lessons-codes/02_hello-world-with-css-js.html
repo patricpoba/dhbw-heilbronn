@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head> 
+    <meta charset="UTF-8">
+    <title>Page Title</title>
+
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="description" content="Free Web tutorials for HTML and CSS">
+    <meta http-equiv="refresh" content="10">
+
+    <!-- This tag makes the page responsive -->
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+    <style> 
+        /* ----------- */
+        html {
+            font-family: Lora, Georgia, serif; 
+            margin: 2em;
+            font-size: 170%;
+            line-height: 1.5;
+            background-color: #dcdcd1;
+        }
+        h1{
+            color: #000;
+        }
+        .box {
+            background-color: white;
+            padding: 0.1em 1em;
+            color: #000;
+        }
+        .bilingual {
+            font-style: italic;
+        }  
+        #firstLink {
+            color: green;
+        }
+        #firstLink:hover {
+            color: red;
+        }
+    </style>
+</head>
+<body>  
+    <!-- This is a comment -->
+    <article lang="en">
+        <h1>This is the headline</h1>
+        <div class="box">
+            <p>The first paragraph.</p>
+
+            <p>Some text in a second paragraph.</p>
+
+            <p>
+                Third paragraph. <span lang="es" class="bilingual">Esta oración está en español.</span> 
+                Some of this text is in another language.
+            </p>
+            
+            <p>Fourth paragraph.</p>
+
+            <a href="" id="firstLink" onclick="alert('This is a javascript alert!')">click me</a>
+        </div>
+    </article> 
+
+</body>
+</html>
