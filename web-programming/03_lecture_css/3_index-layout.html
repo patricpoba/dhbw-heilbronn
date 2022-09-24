@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Patrick BLog Website</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'> 
+
+    <style> 
+        * {
+            box-sizing: border-box;
+        }
+        html {
+            font-family: Lora, Georgia, serif;
+            /* margin: 2em; */
+            /* font-size: 170%; */
+            line-height: 1.5;
+            background-color: #dcdcd1;
+        }
+         body { 
+            color: #000;
+        } 
+        article {
+            background-color: white;
+            padding-top:10px; 
+            padding-right:10px; 
+            padding-bottom:10px; 
+            padding-left:10px; 
+            padding: 10px ;
+            
+            margin-bottom: 20px;
+        }
+        .bilingual {
+            font-style: italic;
+        }  
+        header, footer{
+            text-align: center; 
+        } 
+    </style>
+    <style>
+        /* LAYOUTS STYLES  */
+            /* only for demonstration, should be removed */
+            nav, #articles-list{  height: 1000px;  }
+            nav, #articels-list, header, footer{ border: 5px solid red; }
+
+        header {
+            background-color: #efefcb;
+            padding: 30px; 
+            font-size: 35px; 
+        }
+
+        /* Create two columns/boxes that floats next to each other */
+        nav {
+            float: left;
+            width: 20%; 
+            background: #dcdcd1;
+            padding: 20px;
+        } 
+        /* Style the list inside the menu */
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            line-height: 2;
+        }
+
+        #articles-list {
+            float: left;
+            padding: 20px;
+            width: 80%;
+            background-color: #f1f1f1; 
+        }
+
+        /* Clear floats after the columns */
+        main::after { 
+            display: table;
+            clear: both;
+        }
+
+        /* Style the footer */
+        footer {
+            background-color: #efefcb;
+            padding: 10px; 
+            color: #000;
+        }
+
+        /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+        @media (max-width: 600px) {
+            nav, #articles-list {
+                width: 100% !important;
+                height: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header> 
+        <h1>Patric's thoughts :-)</h1> 
+    </header>
+     
+    <main> 
+        <!-- <nav> 
+            <a href="#">Home</a> | 
+            <a href="#">Articles</a> | 
+            <a href="#">Contact</a> 
+        </nav> -->
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li> 
+                <li><a href="#">Articles</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul> 
+        </nav>
+        
+        <section id="articles-list"> 
+            <article lang="en">
+                <h3>My First Impression about Germany</h3>
+                <div class="article-summary">
+                    <p> 
+                        Germany is a beautiful country in Western Europe full of calming landscapes, forests, rivers, and mountains. This lovely country has a long and rich history and it is quite a popular tourist attraction as well as a study destination for
+                        international students. 
+                        Image result for my first impression about germany
+                        With an interesting and rich history narrated by the old-fashion and colorful architecture, castles, palaces, cathedrals
+                        and monuments themselves, its landscapes, mountains and forests, delicious food and beer, Germany remains one of the top
+                        destinations in the world for travelers
+                    </p> 
+                    <p>I love Germany <span lang="es" class="bilingual">Quiero mucho a Alemania..</span> Some of this text is
+                        in another language.</p> 
+                    <a href="#" class="link-read-more">continue reading &raquo;</a>
+                </div>
+            </article>
+            
+            <article lang="en">
+                <h3>My studies during Corona</h3>
+                <div class="article-summary" style="background-color: rgb(204, 228, 205); border: 1px solid green; padding: 5px;">
+                    
+                    <p>During this difficult time, it's important to continue looking after your physical 
+                    and mental health. This will not only help you in the long-term, it will also help 
+                    you fight COVID-19 if you get it.</p>
+
+                    <p>First, eat a health and nutritious diet, which helps your immune system to function properly. Second, limit your alcohol consumption, and avoid sugary drinks. Third, don't smoke. Smoking can increase your risk of developing severe disease if
+                    you become infected with COVID-19. Fourth, exercise.</p>
+
+                    <a href="#" class="link-read-more">continue reading &raquo;</a>
+                </div>
+            </article>
+            
+            <article lang="en">
+                <h3>My vacation in Ghana</h3>
+                <div class="article-summary">
+                    
+                    <p>I had a three-week short vacation in  Ghana.</p> 
+                    <p>It was fun but too short; I had to returnt to Germany because of University</p> 
+                    <a href="#" class="link-read-more">continue reading &raquo;</a>
+                </div>
+            </article>
+        </section>  
+    </main>
+
+    <footer>
+        <p>Copyright &copy 2022 PatricWebsite.com</p>
+    </footer>
+</body>
+</html>
