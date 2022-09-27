@@ -15,16 +15,16 @@
         .border-gray {border-color: gray;}
     </style>
 
-    <!-- <style> 
+    <style> 
         * {
             box-sizing: border-box;
         }
         html {
             font-family: Lora, Georgia, serif;
             margin: 2em;
-            font-size: 170%;
+            font-size: 120%;
             line-height: 1.5;
-            background-color: #dcdcd1;
+            /* background-color: #dcdcd1; */
         }
         body { 
             color: #000;
@@ -39,12 +39,10 @@
         header, footer{
             text-align: center; 
         } 
-    </style>
-    <style>
-        /* layout styles   */
-    </style> -->
+    </style> 
 
-    <style> 
+    <style>  
+        /* BOX-MODEL layout styles */
         .box-model {
             box-sizing: border-box;
             border: 10px solid #a10101;
@@ -52,15 +50,22 @@
             padding: 40px;
             margin-bottom: 50px;
         } 
+
+        /* article:nth-child(1) {  */
+        article:nth-of-type(1) { 
+             margin-bottom: -25px; /* demo of negative values; */
+            margin-left: 20px;
+            border: 5px solid green !important; 
+        }
     </style>
 </head>
-<body style="padding: 10px 250px" class="">
+<body style="padding: 10px 50px" class="">
     <fieldset class="show-border border-red">
         <legend>< header ></header></legend> 
         <h1>DeepThink Blog Website</h1> 
     </fieldset>
     
-    <main class="" > 
+    <main> 
         <fieldset class="show-border border-red">
             <legend> < nav ></nav></legend> 
 
@@ -72,21 +77,19 @@
         <fieldset id="articles-list" class="show-border border-red"> 
             <legend> < section >:</legend>
 
-            <fieldset lang="en" class="show-border border-blue first-article">
-                <legend>< article ></legend>
+            <fieldset lang="en" class="show-border border-blue first-article box-model">
+                <legend>< border ></legend>
 
-                <h3 class="">My First Impression about Germany (h3 heading)</h3>
+                <h3 class="">[content] My First Impression about Germany (h3 heading)</h3>
                 <div class="article-summary">
                     <p> 
-                        < p > Germany is a beautiful country in Western Europe full of calming landscapes, forests, rivers, and mountains. This lovely country has a long and rich history and it is quite a popular tourist attraction as well as a study destination for
-                        international students. 
-                        Image result for my first impression about germany
-                        With an interesting and rich history narrated by the old-fashion and colorful architecture, castles, palaces, cathedrals
-                        and monuments themselves, its landscapes, mountains and forests, delicious food and beer, Germany remains one of the top
+                        Germany is a beautiful country in Western Europe full of calming landscapes, forests, rivers, and mountains. This lovely country has a long and rich history and it is quite a popular tourist attraction as well as a study destination for
+                        international students.  and monuments themselves, its landscapes, mountains and forests, delicious food and beer, Germany remains one of the top
                         destinations in the world for travelers (paragraph)
                         I love Germany <span lang="es" class="bilingual">Quiero mucho a Alemania..</span> Some of this text is
-                        in another language.</p> 
-                    <a href="#" class="btn">continue reading &raquo;</a>
+                        in another language.</p>  
+                    
+                    <p>space after border is margin</p>
                 </div>
             </fieldset>
             
@@ -100,7 +103,7 @@
                     First, eat a health and nutritious diet, which helps your immune system to function properly. Second, limit your alcohol consumption, and avoid sugary drinks. Third, don't smoke. Smoking can increase your risk of developing severe disease if
                     you become infected with COVID-19. Fourth, exercise.</p>
 
-                    <a href="#" class="btn">continue reading &raquo;</a>
+                    <a href="#" class="btn"></a>
                 </div>
             </article>
             
