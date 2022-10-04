@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head> 
+    <title>Page Title</title> 
+    <style>
+        * {
+            box-sizing: border-box; 
+        }
+        
+        body * {
+            /* padding: 10px;  */
+            padding-top: 10px; 
+            padding-right: 10px; 
+            padding-bottom: 10px; 
+            padding-left: 10px; 
+            margin : 10px;
+            text-align: center;
+        }
+        
+        header, nav, #content, #main-content, #sidebar, footer{ 
+            background-color: #e1e1e1; 
+            border: 1px solid gray;
+        }
+
+        #content{
+            width: 20%;
+            float: left;
+            height: 300px;
+        }
+        #main-content{
+            width: 50%;
+            float: left;
+            height: 300px;
+        } 
+        #sidebar{
+            width: 20%;
+            float: left;
+            height: 300px;
+        }
+
+        footer{
+            clear: left;
+        }
+
+    </style>
+    
+</head>
+<body>
+    <header> Header </header> 
+
+    <nav>Navigation Menu</nav>
+
+    <div>
+        <div id="content" class="someclass">Content</div>
+        <div id="main-content">Main Content</div>
+        <div id="sidebar">Sidebar</div>
+    </div>
+     
+    <footer>Footer</footer>
+</body>
+</html>

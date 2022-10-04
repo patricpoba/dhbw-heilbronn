@@ -1,0 +1,101 @@
+/*--------------------------------------------------------------
+# Reset
+--------------------------------------------------------------*/
+* {
+    box-sizing: border-box;
+    font-family: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto;
+    margin: 0px;
+    border: 0;
+    padding: 0px;
+}
+
+.redborder{ border: 1px solid red;}
+.greenborder{ border: 1px solid green;}
+ 
+.clear{
+    clear:both;
+}
+
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+.red-text{ 
+    color: #ce1212;
+}
+ 
+.black-text{ 
+    color: #212529;
+}
+ 
+.gray-background{
+    background-color: #eee;
+}
+
+.container{
+    width: 80%;
+    margin: 0px auto;
+}
+
+header{
+    width: 100%;
+    padding: 10px;
+}
+
+#header-content{
+    background-color: white;
+}
+
+#logo-section{
+    width: 25%;
+    height: 60px;
+    line-height: 60px;
+    display: inline-block;
+}
+
+#logo-section img{
+    float: left;
+}
+
+nav{
+    width: 70%;
+    text-align: right;
+}
+
+nav ul > li{
+    list-style: none;
+    align-items: center;
+    display: inline-block;
+    padding: 20px 0 20px 28px;
+    vertical-align: middle;
+}
+
+nav li a:link{
+    text-decoration: none;
+}
+
+
+/* footer sytle  */
+footer{
+    width: 100%;
+    background-color: #000000;
+    color:white;
+    margin-top: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+
+#hero .container{
+    padding: 25px; 
+}
+
+.menu-item{
+    width: 30%;
+    border: 1px solid #eee;
+    float: left;
+}
+
+.menu-item img{
+    width: 50%;
+}

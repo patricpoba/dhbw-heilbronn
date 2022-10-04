@@ -3,7 +3,7 @@
 --------------------------------------------------------------*/
 * {
     box-sizing: border-box;
-    font-family: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";;
+    font-family: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto;
     margin: 0px;
     border: 0;
     padding: 0px;
@@ -11,36 +11,22 @@
 
 .redborder{ border: 1px solid red;}
 .greenborder{ border: 1px solid green;}
-
-/* Colors */
-:root {
-  --color-default: #212529;
-  --color-red: #ce1212;
-  --color-secondary: #37373f;
-}
-
+ 
 .clear{
     clear:both;
 }
+
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
 .red-text{ 
     color: #ce1212;
 }
-
-.red-background{ 
-    background-color: #ce1212;
-}
-
+ 
 .black-text{ 
     color: #212529;
 }
-
-.white-text{ 
-    color: #fff;
-}
-
+ 
 .gray-background{
     background-color: #eee;
 }
@@ -60,7 +46,6 @@ header{
     background: white;
 }
 
-
 #logo-section{
     width:25%;
     height: 60px;
@@ -76,32 +61,13 @@ header{
 #logo-section img{
     float: left;
 }
-
-/* #logo-section span{ 
-    display: inline-block;
-    vertical-align: middle;
-    clear: left;
-    color: #000000;
- } */
  
-
 nav{
     width: 73%;
     text-align: right; 
     display: inline-block; 
 }
-
-/* header::after, .clearfix{
-    clear: both;
-} */
-
- /* .navbar a:hover,
-nav li:hover>a {
-    color: #000;
-} */
-nav ul {
-    
-}
+ 
 
 nav ul > li {  
     list-style: none;
@@ -129,7 +95,7 @@ nav li:hover>a, .button{
     border-radius: 50px; 
 }
 
-
+/* FOOTER SYTLES */
 footer{
     /* border: 1px solid red;  */
     width: 100%;
@@ -142,7 +108,7 @@ footer{
 }
 
 /*--------------------------------------------------------------
-# page
+# HOME PAGE
 --------------------------------------------------------------*/
 
 .hero-text{
