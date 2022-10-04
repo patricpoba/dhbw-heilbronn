@@ -45,7 +45,7 @@
             </nav> 
         </div>
         
-        <!-- <div class="clearfix"></div> -->
+        <!-- <div class="clear"></div> -->
     </header><!-- End Header -->
 
     <!-- ======= Hero Section ======= -->
@@ -64,12 +64,12 @@
             <div class="hero-image ">
                 <img src="images/hero-img.png" class="img-fluid" alt="">
             </div> 
-            <div class="clearfix"></div>
+            <div class="clear"></div>
         </div>
     </section><!-- End Hero Section -->
 
     <main id="content">
-        <section> 
+        <!-- <section> 
             <div class="section-header"> 
                 <h2>Some brief About Us</h2>
                 <p>Learn More <span class="red-text">About Us</span></p>
@@ -116,12 +116,82 @@
                     vel cessitatibus optio ad corporis</p>
             </article>
 
-        </section>
+        </section> -->
 
-        <section>
-            <a href="#" class="btn">Check today's meals</a>
-        </section>
+        <section id="menu-list">
+            <div class="container">
+                <div class="section-header"> 
+                    <h2>Today's Menu</h2>
+                    <p>We have some <span class="red-text">delcious meals</span> for you.</p>
+                </div>
 
+                <div class="menu-item redborder">
+                    <!-- <a href="images/menu/menu-item-1.png" class="glightbox"> -->
+                        <img src="images/menu/menu-item-1.png" class="" alt="">
+                    <!-- </a>  -->
+                    <h4>Magnam Tiste</h4>
+                    <p> Lorem, deren, trataro, filede, nerada</p>
+                    <p class="price"> EUR 5.95</p>
+                    <a href="" class="button">order</a>
+                </div><!-- Menu Item -->
+
+
+                <div class="menu-item redborder">
+                    <!-- <a href="images/menu/menu-item-1.png" class="glightbox"> -->
+                        <img src="images/menu/menu-item-2.png" class="" alt="">
+                    <!-- </a>  -->
+                    <h4>Magnam Tiste</h4>
+                    <p> Lorem, deren, trataro, filede, nerada</p>
+                    <p class="price"> EUR 5.95</p>
+                    <a href="" class="button">order</a>
+                </div><!-- Menu Item -->
+
+
+                <div class="menu-item redborder">
+                    <!-- <a href="images/menu/menu-item-1.png" class="glightbox"> -->
+                        <img src="images/menu/menu-item-3.png" class="" alt="">
+                    <!-- </a>  -->
+                    <h4>Magnam Tiste</h4>
+                    <p> Lorem, deren, trataro, filede, nerada</p>
+                    <p class="price"> EUR 5.95</p>
+                    <a href="" class="button">order</a>
+                </div><!-- Menu Item -->
+
+
+                <div class="menu-item redborder">
+                    <!-- <a href="images/menu/menu-item-1.png" class="glightbox"> -->
+                        <img src="images/menu/menu-item-4.png" class="" alt="">
+                    <!-- </a>  -->
+                    <h4>Magnam Tiste</h4>
+                    <p> Lorem, deren, trataro, filede, nerada</p>
+                    <p class="price"> EUR 5.95</p>
+                    <a href="" class="button">order</a>
+                </div><!-- Menu Item -->
+
+
+                <div class="menu-item redborder">
+                    <!-- <a href="images/menu/menu-item-1.png" class="glightbox"> -->
+                        <img src="images/menu/menu-item-5.png" class="" alt="">
+                    <!-- </a>  -->
+                    <h4>Magnam Tiste</h4>
+                    <p> Lorem, deren, trataro, filede, nerada</p>
+                    <p class="price"> EUR 5.95</p>
+                    <a href="" class="button">order</a>
+                </div><!-- Menu Item -->
+
+                <div class="menu-item redborder">
+                    <!-- <a href="images/menu/menu-item-1.png" class="glightbox"> -->
+                        <img src="images/menu/menu-item-6.png" class="" alt="">
+                    <!-- </a>  -->
+                    <h4>Magnam Tiste</h4>
+                    <p> Lorem, deren, trataro, filede, nerada</p>
+                    <p class="price"> EUR 5.95</p>
+                    <a href="" class="button">order</a>
+                </div><!-- Menu Item -->
+            </div>
+
+            <div class="clear"></div>
+        </section>
     </main>
     <!-- End #main -->
 

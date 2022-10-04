@@ -19,7 +19,7 @@
   --color-secondary: #37373f;
 }
 
-.clearfix{
+.clear{
     clear:both;
 }
 /*--------------------------------------------------------------
@@ -130,14 +130,12 @@ nav li:hover>a, .button{
 }
 
 
-
-
 footer{
     /* border: 1px solid red;  */
     width: 100%;
     background-color: #000000;
     color:white;
-    margin-top: 10px;
+    margin-top: 20px;
     padding-top: 25px;
     padding-bottom: 25px;
     text-align: center;
@@ -175,4 +173,32 @@ footer{
 
 #hero .container{
     padding: 25px;
+}
+
+
+/* MENU ITEM */
+.section-header{ 
+    padding: 20px;
+}
+
+#menu-list .menu-item{
+    width: 30%;
+    float: left;
+    text-align: center;
+    border: 1px solid #eee;
+    margin: 5px;
+    padding: 20px;
+}
+.menu-item img{
+    width: 50%;
+}
+
+.menu-item .price{
+    color: #ce1212;
+    font-weight: bold;
+    margin: 10px;
+}
+ 
+#menu-list .container{
+    text-align: center;
 }
