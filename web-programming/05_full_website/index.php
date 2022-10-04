@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head> 
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>DHBW Mensah - Home</title>
+
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+  
+    <!-- Use Google Fonts -->
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Amatic+SC:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+    >
+  
+    <!-- Main CSS styles -->
+    <link  rel="stylesheet" href="css/main.css?id=<?=time()?>">
+    
+</head>
+
+<body>
+
+    <!-- ======= Header ======= -->
+    <header> 
+        <div id="header-content" class="container">
+             
+            <div id="logo-section">   
+                <a href="index.html"> 
+                    <img src="images/logo.png" alt="Bildungs Campus Mensa logo" >
+                    <span>BcMensa</span>
+                </a> 
+            </div>
+    
+            <nav>
+                <ul> 
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Today's Menu</a></li>  
+                    <li><a href="about.html">About</a></li> 
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a class="button" href="#">Place Order</a></li>
+                </ul>
+            </nav> 
+        </div>
+        
+        <!-- <div class="clearfix"></div> -->
+    </header><!-- End Header -->
+
+    <!-- ======= Hero Section ======= -->
+    <section id="hero" class="black-text gray-background"> 
+        <div class="container"> 
+            <div class="hero-text ">
+                <h2>Enjoy Your Healthy<br>Delicious Food</h2>
+                <p>A healthy mind dwells in a healthy body We pay careful attention to all that we serve to students.</p>
+
+                <div class="hero-text-link">
+                    <a href="#book-a-table" class="button">Place Order</a>
+                    <a href="" class="">Check Menu</a>
+                </div>
+            </div>
+            
+            <div class="hero-image ">
+                <img src="images/hero-img.png" class="img-fluid" alt="">
+            </div> 
+            <div class="clearfix"></div>
+        </div>
+    </section><!-- End Hero Section -->
+
+    <main id="content">
+        <section> 
+            <div class="section-header"> 
+                <h2>Some brief About Us</h2>
+                <p>Learn More <span class="red-text">About Us</span></p>
+            </div>
+
+            <div class="section-body">
+                <img src="images/mensa-picture.jpeg">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi odit nemo nam magnam atque 
+                    possimus nulla temporibus repudiandae. Mollitia magni rem temporibus voluptatem numquam, 
+                    excepturi quibusdam id eius. Adipisci, ab. 
+                </p>
+                <h4>Opening Hours</h4>
+                <ul>
+                    <li>Mon: 10:00 - 14:30</li>
+                    <li>Tues: 10:00 - 14:30</li>
+                    <li>Wed: 10:00 - 14:30</li>
+                    <li>Thur: 10:00 - 14:30</li>
+                    <li>Fri: 10:00 - 14:30</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <div class="red-background white-text">
+                <h2>Brief History</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                aliqua. Duis aute irure dolor in reprehenderit Asperiores dolores sed et. Tenetur quia eos. Autem tempore quibusdam vel
+                necessitatibus optio ad corporis</p>
+            </div>
+
+            <article>
+                <img src="images/diamond-icon.png">
+                <h3>Why eat at BcMensa?</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Duis aute irure dolor in reprehenderit Asperiores dolores sed et. Tenetur quia eos. Autem tempore quibusdam
+                    vel cessitatibus optio ad corporis</p>
+            </article>
+
+            <article>
+                <img src="images/diamond-icon.png">
+                <h3>Directions</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Duis aute irure dolor in reprehenderit Asperiores dolores sed et. Tenetur quia eos. Autem tempore quibusdam
+                    vel cessitatibus optio ad corporis</p>
+            </article>
+
+        </section>
+
+        <section>
+            <a href="#" class="btn">Check today's meals</a>
+        </section>
+
+    </main>
+    <!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+    <footer> 
+        <p class="copyright">
+            &copy; Copyright 2022 BcMensa. 
+            All Rights Reserved
+        </p>  
+    </footer><!-- End Footer -->
+    <!-- End Footer --> 
+</body>
+
+</html>
