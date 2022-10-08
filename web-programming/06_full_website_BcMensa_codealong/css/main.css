@@ -62,7 +62,7 @@ nav{
     /* display: inline-block; */
 }
 
-nav ul > li{
+nav ul  li{
     list-style: none;
     align-items: center;
     display: inline-block;

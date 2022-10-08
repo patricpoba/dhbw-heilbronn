@@ -69,7 +69,7 @@ nav{
 }
  
 
-nav ul > li {  
+nav ul li {  
     list-style: none;
     align-items: center;
     display: inline-block;
@@ -168,3 +168,46 @@ footer{
 #menu-list .container{
     text-align: center;
 }
+
+/*--------------------------------------------------------------
+# ABOUT US page
+--------------------------------------------------------------*/
+.information-box {
+    width: 30%;
+    float: left;
+    text-align: center;
+    border: 1px solid #eee;
+    margin: 5px;
+    padding: 20px; 
+}
+
+.contact-info-box {
+    width: 48%;
+    text-align: left;
+    border: 1px solid #eee;
+    margin: 5px;
+    padding: 20px; 
+    overflow: auto;
+    display: inline-block;
+}
+
+.contact-info-box img{  
+    float: left; 
+    width: 15%;
+    padding-right: 10px;
+}
+ 
+form{
+    text-align: center; 
+    /* border: 1px solid #eee; */
+}
+
+input, textarea{
+    border: 1px solid #eee;
+    padding: 10px;
+    font-size: 15px;
+    width: 50%;
+    padding: 10px;
+    margin: 10px;
+}
+ 
