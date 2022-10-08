@@ -59,6 +59,7 @@ header{
 nav{
     width: 70%;
     text-align: right;
+    /* display: inline-block; */
 }
 
 nav ul > li{
