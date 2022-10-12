@@ -58,8 +58,8 @@ header{
 
 nav{
     width: 70%;
-    text-align: right;
-    /* display: inline-block; */
+    text-align: right; 
+    display: inline-block;
 }
 
 nav ul  li{
@@ -95,8 +95,23 @@ footer{
     width: 30%;
     border: 1px solid #eee;
     float: left;
+    text-align: center;
+    margin: 5px;
+    padding: 20px;
 }
 
 .menu-item img{
     width: 50%;
+}
+
+.button{
+    color: #ffffff;
+    background-color: #ce1212;
+    padding: 8px 20px;
+    border-radius: 50px;
+}
+
+.section-header{
+    text-align: center;
+    padding: 10px;
 }
