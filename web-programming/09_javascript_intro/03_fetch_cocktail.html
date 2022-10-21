@@ -27,8 +27,12 @@
         <section>
             <form action="#"> 
                 <div class="input-group">
-                    <input type="text" name='searchText' id="searchText"  
-                        placeholder="search cocktail . . ." class="form-control form-control-lg fs-1" >
+                    
+                    <input type="text" 
+                        name='searchText' 
+                        id="searchText"  
+                        class="form-control form-control-lg fs-1" 
+                        onkeyup="searchCocktail()" placeholder="search cocktail . . .">
 
                     <button class="btn btn-danger text-white fs-2" type="button" onclick="searchCocktail()">Search</button>
                 </div>
@@ -58,11 +62,8 @@
  
     </main>
 
-    <script>
-        // searchCocktail(); 
-        var cocktailList = [];
-
-        function renderList(){  
+    <script> 
+        function renderList(cocktailList){  
             let txt = ''; 
             for(index in cocktailList){   
                 txt +=`<div class='card col-md-3 px-0 m-3'>
@@ -95,18 +96,14 @@
                 }
             })
             .then((data) => {
-                console.log(data); 
-                cocktailList = data.drinks;
-                renderList();
-                // if (data.valid == false) {
-                //     document.getElementById("errorMessage").innerHTML = "Invalid word.";
-                //     return;
-                // } 
-                // document.getElementById("definition").innerHTML = data.definition;
+                // console.log(data); 
+                // cocktailList = data.drinks;
+                renderList(data.drinks); 
             })
             .catch((error) => {
                 console.log('API error occurred');
-            });
+            })
+            ;
         }
     </script>
 </body>
