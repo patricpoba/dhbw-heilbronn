@@ -4,11 +4,11 @@
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     
-    <title>Cocktail Search Engine</title>
+    <title>AngJS Cocktail Search Engine</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     
     <!-- Bootstrap CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
 
@@ -23,7 +23,7 @@
     <main class="container">
         <section class="text-center mt-5 pt-5">
             <!-- <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"> -->
-            <h1> Cocktails Search <i class="bi-search"></i> </h1>
+            <h1> Cocktails Search [AngularJs] <i class="bi-search"></i> </h1>
             <p>Available Rs names: Margarita, Mojito (https://www.thecocktaildb.com/) </p>
         </section>
 
@@ -32,12 +32,12 @@
                 <div class="input-group">
                     <input type="text" name='searchText' id="searchText"  
                         placeholder="cocktail name . . ." class="form-control form-control-lg fs-1" >
-                    <button class="btn btn-primary btn-outline-secondary text-white fs-2" type="button" ng-click="searchCocktail()">Search</button>
+                    <button class="btn btn-warning btn-outline-secondary text-dark fs-2" type="button" ng-click="searchCocktail()">Search</button>
                 </div>
             </form>
         </section>
 
-        <section class="my-3 p-3 bg-body rounded shadow-sm row"> 
+        <section class="row justify-content-center my-3 p-3 bg-body rounded shadow-sm"> 
             <h5 class="border-bottom pb-2 mb-3">Search Result</h5>
  
                 <!-- <div class="card col-md-3">
@@ -53,12 +53,14 @@
                     </div>
                 </div> -->
 
-                <div class="card col-md-3 m-3" ng-repeat="cocktail in cocktails">
+                <div class="card col-md-3 m-3 px-0" ng-repeat="cocktail in cocktails">
                     <img src='{{ cocktail.strDrinkThumb }}' class="card-img-top" alt="...">
                 
                     <div class="card-body">
                         <h5 class="card-title">{{ cocktail.strDrink }}</h5>
                         <p class="card-text">{{ cocktail.strInstructions }}</p> 
+                        
+                        <a href="#" class="btn btn-warning"> <i class="bi-cart-plus-fill"></i> add to cart</a>
                     </div>
                 </div>
  
