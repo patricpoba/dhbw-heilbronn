@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Appointment Form</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'> 
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"> 
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+    <!-- JavaScript Bundle with Popper --> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <main>
+            <div class="py-5 text-center"> 
+                <h2>Send Us a Message</h2> 
+            </div>
+
+            <div class="row g-5 justify-content-center"> 
+                <div class="col-md-7 col-lg-8"> 
+
+                    <form class="needs-validation" id="appointmentForm" novalidate>
+                        <div class="row g-3">
+                            <div class="col-sm-6">
+                                <label for="firstName" class="form-label">First name</label>
+                                <input type="text" class="form-control" id="firstName" name="firstName"  placeholder="" required> 
+                            </div>
+
+                            <div class="col-sm-6">
+                                <label for="lastName" class="form-label">Last name</label>
+                                <input type="text" class="form-control" name="lastName"  id="lastName" placeholder="" value="" required> 
+                            </div>
+ 
+                            <div class="col-12"> 
+                                <label for="state" class="form-label">Subject Area</label>
+                                <select class="form-select" name="state" required>
+                                    <option value="">Choose...</option>
+                                    <option>General Enquiries</option>
+                                    <option>Billing</option>
+                                    <option>Support</option>
+                                </select>
+                            </div>
+
+                            <div class="col-12">
+                                <label for="address" class="form-label">Message</label>
+                                <!-- <input type="text" class="form-control" name="address" placeholder="1234 Heilbronn" required>  -->
+                                <textarea name="address" id="" cols="30" rows="10" class="form-control"></textarea>
+                            </div>
+  
+                        </div>
+    
+                        <button class="w-100 btn btn-danger btn-lg my-3" type="submit">send message</button>
+
+                        <div class="alert alert-success d-block" id="alertMessage">
+                            <p class="mb-0">Form submitted successfully</p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </main>
+
+        <footer class="mt-2 pt-2 text-muted text-center text-small">
+            <p class="mb-1">&copy; 2017–2021 Company Name</p> 
+        </footer>
+    </div>
+
+ <script>
+    // 5.Form submission
+    
+ </script>
+</body>
+</html>

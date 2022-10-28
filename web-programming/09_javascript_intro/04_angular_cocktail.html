@@ -22,23 +22,23 @@
    
     <main class="container">
         <section class="text-center mt-5 pt-5">
-            <!-- <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"> -->
+            <img src="https://www.thecocktaildb.com/images/logo.png">
             <h1> Cocktails Search [AngularJs] <i class="bi-search"></i> </h1>
             <p>Available Rs names: Margarita, Mojito (https://www.thecocktaildb.com/) </p>
         </section>
 
         <section>
-            <form action="#"> 
+            <form action="#" autocomplete="off"> 
                 <div class="input-group">
-                    <input type="text" name='searchText' id="searchText"  
-                        placeholder="cocktail name . . ." class="form-control form-control-lg fs-1" >
+                    <input type="text" name='searchText' id="searchText" ng-model="ngSearchText"
+                        placeholder="cocktail name . . ." class="form-control form-control-lg fs-1">
                     <button class="btn btn-warning btn-outline-secondary text-dark fs-2" type="button" ng-click="searchCocktail()">Search</button>
                 </div>
             </form>
         </section>
 
         <section class="row justify-content-center my-3 p-3 bg-body rounded shadow-sm"> 
-            <h5 class="border-bottom pb-2 mb-3">Search Result</h5>
+            <h5 class="border-bottom pb-2 mb-3">Search Result: {{ ngSearchText }}</h5>
  
                 <!-- <div class="card col-md-3">
                     <img src="https://www.thecocktaildb.com/images/media/drink/5noda61589575158.jpg" class="card-img-top" alt="...">

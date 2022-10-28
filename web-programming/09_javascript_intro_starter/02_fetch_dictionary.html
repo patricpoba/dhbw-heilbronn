@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+
+    <title>Dictionary</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"> 
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+</head>
+
+<body>
+
+    <main class="container">
+
+        <section class="text-center mt-5 pt-5"> 
+            <h1> Dictionary Search <i class="bi-book"></i> </h1>
+            <p>API powered by https://api-ninjas.com/api/dictionary</p>
+        </section>
+
+        <section class="row justify-content-center">
+            <form action="#" class="col-md-6">
+
+                <div class="input-group">
+                    <input type="text" name='search_word' id="search_word" placeholder=". . . ."
+                        class="form-control form-control-lg fs-1">
+
+                    <button onclick="searchDictionary()" class="btn btn-info btn-outline-secondary text-white fs-2" type="button"
+                       >lookup</button>
+                </div>
+
+                <em id="errorMessage" class="text-danger"></em>
+
+            </form>
+        </section>
+
+        <section class="row justify-content-center my-3  ">
+
+            <div class="col-md-6 bg-body rounded shadow-sm p-3">
+
+                <h5 class="border-bottom pb-2 mb-3">Definition: </h5>
+
+                <p id="definition"></p> 
+                
+                <!-- <div class="text-center">
+                    <div class="spinner-border" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                    </div>
+                </div> -->
+
+            </div>
+            
+        </section>
+ 
+    </main>
+
+<script>
+function searchDictionary() {
+    let searchWord = document.getElementById('search_word').value;
+
+    if (searchWord == "") {
+        document.getElementById('errorMessage').innerHTML = "please enter a word";
+
+        return false;
+    }
+
+    fetch("https://api.api-ninjas.com/v1/dictionary?word=" + searchWord, {
+        method: "GET",  
+        headers:  { 'X-API-KEY': 'NXnMQfTKLHMjR5FgWFsEvw==FZUKb9E3yAJkWqOg' }
+    })
+    .then((response) => response.json() )
+    .then((data) => {
+        console.log(data.definition); 
+        document.getElementById('definition').innerHTML = data.definition;
+    });
+
+
+
+}
+</script>
+</body>
+</html>
