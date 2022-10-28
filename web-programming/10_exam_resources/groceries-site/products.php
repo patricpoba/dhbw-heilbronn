@@ -23,13 +23,13 @@
             "name": "Bio Gurke",
             "price": "1.10",
             "stock": "13",
-            "image_url": "https://api.pobatech.net/groceries-site/images/item-12.webp"
+            "image_url": "https://api.pobatech.net/groceries-site/images/item-4.webp"
         }, 
         {
             "name": "Tomatoes",
             "price": "3.54",
             "stock": "73",
-            "image_url": "https://api.pobatech.net/groceries-site/images/item-12.webp"
+            "image_url": "https://api.pobatech.net/groceries-site/images/item-8.webp"
         }, 
         {
             "name": "Spinat",
