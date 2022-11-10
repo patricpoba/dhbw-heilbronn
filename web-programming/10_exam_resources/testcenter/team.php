@@ -8,37 +8,37 @@
         }, 
         {
             "name": "Sarah Gunther", 
-            "postion": "Ass. Lab Head",
+            "position": "Ass. Lab Head",
             "image_url": "https://api.pobatech.net/testcenter/images/member-2.jpg"
         },
         {
             "name": "Robert Kiran", 
-            "postion": "Lab Technician",
+            "position": "Lab Technician",
             "image_url": "https://api.pobatech.net/testcenter/images/member-2.jpg"
         },
         {
             "name": "Anja Schmidt", 
-            "postion": "Pathologist Assistant",
+            "position": "Pathologist Assistant",
             "image_url": "https://api.pobatech.net/testcenter/images/member-2.jpg"
         },
         {
             "name": "Mark Piper", 
-            "postion": "Anesthesia Technician",
+            "position": "Anesthesia Technician",
             "image_url": "https://api.pobatech.net/testcenter/images/member-2.jpg"
         },
         {
             "name": "Laura Schwatz", 
-            "postion": "Histotechnician",
+            "position": "Histotechnician",
             "image_url": "https://api.pobatech.net/testcenter/images/member-2.jpg"
         },
         {
             "name": "Leon Schneider", 
-            "postion": "Cytogenetic Technician",
+            "position": "Cytogenetic Technician",
             "image_url": "https://api.pobatech.net/testcenter/images/member-2.jpg"
         },
         {
             "name": "Olaf Wagner", 
-            "postion": "Cytogenetic Technician",
+            "position": "Cytogenetic Technician",
             "image_url": "https://api.pobatech.net/testcenter/images/member-2.jpg"
         }
     ]
