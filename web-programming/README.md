@@ -12,3 +12,10 @@ HTML layouts - https://www.w3schools.com/html/html_layout.asp
 HTML elements examples - https://www.w3schools.com/html/html_examples.asp
 
 Github Pages (putting your website online) - https://docs.github.com/en/pages/quickstart
+
+
+# OPen to use API service provider
+
+https://apipheny.io/free-api/
+
+https://github.com/OpenLigaDB/OpenLigaDB-Samples
