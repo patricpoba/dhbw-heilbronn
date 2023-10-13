@@ -1,0 +1,12 @@
+
+address{
+    background-color: brown;
+}
+
+.description{
+    line-height: 5;
+}
+
+#biography{
+    border: 5px solid red;
+}

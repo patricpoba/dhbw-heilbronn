@@ -1,0 +1,145 @@
+/*--------------------------------------------------------------
+# Reset
+--------------------------------------------------------------*/
+* {
+    box-sizing: border-box;
+    font-family: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto;
+    margin: 0px;
+    border: 0px solid red;
+    padding: 0px;
+}
+
+/* helper css */
+.red-text {
+    color: #ce1212;
+}
+
+.gray-background {
+    background-color: #eee;
+}
+
+.container {
+    width: 80%;
+    margin: 0px auto;
+    /* border: 1px solid red; */
+}
+ 
+/* header * { border: 1px solid green;} */
+header .container{
+    /* height: 60px; */
+    display: flex;
+    justify-content: space-between; 
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#logo-section{
+    display: flex;
+    width: 30%;
+    align-items: center;
+}
+
+nav {
+    width: 70%;
+    display: flex; 
+    padding-right: 10%;   
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #212529;
+    padding: 5px 10px;
+    margin-right: 10px;
+}
+
+nav a:hover, 
+.button {
+    background: #ce1212;
+    color: #F7FFF7 !important; 
+    text-decoration: none;
+    border-radius: 25px;
+    padding: 5px 10px;
+}
+
+
+/* hero section */
+/* #hero * {border: 1px solid green; } */
+#hero .container{
+    display: flex;
+}
+
+#hero{ 
+    padding: 20px 20px 50px 20px;
+}
+
+.hero-text{
+    width: 40%;
+    line-height: 2;
+    padding: 50px 10px 0px 60px; 
+}
+
+.hero-text-link{
+    margin: 10px 0px;
+}
+
+.hero-text h2{
+    font-family: "Amatic SC", sans-serif;
+    font-size: 50px;
+}
+
+.hero-image{
+    width: 60%; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-image img { 
+    width: 60%;
+}
+
+/* page header */
+.page-header{
+    text-align: center;
+    padding:10px;
+    margin-bottom: 10px;
+}
+
+#menu-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* menu items */
+.menu-item {
+    width: 30%;
+    text-align: center;
+    border: 1px solid #eee;
+    margin: 10px;
+    padding: 20px;
+}
+
+.menu-item img {
+    width: 50%;
+}
+
+.price{
+    margin: 10px 0px;
+}
+
+/* footer  */
+footer {
+    /* border: 1px solid red;  */
+    /* width: 100%; */
+    background-color: #000000;
+    color: white;
+    margin-top: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+}

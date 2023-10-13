@@ -3,27 +3,27 @@
     "equipment" : [ 
         {
             "name": "Stowable Bench", 
-            "image_url": "https://poba.me/api/fitnesscenter/images/equipment-1.png"
+            "image_url": "/api/fitnesscenter/images/equipment-1.png"
         },
         {
             "name": "Smart Treadmill", 
-            "image_url": "https://poba.me/api/fitnesscenter/images/equipment-2.jpg"
+            "image_url": "/api/fitnesscenter/images/equipment-2.jpg"
         },
         {
             "name": "AD7 Airdyne Bike", 
-            "image_url": "https://poba.me/api/fitnesscenter/images/equipment-3.jpg"
+            "image_url": "/api/fitnesscenter/images/equipment-3.jpg"
         },
         {
             "name": "Dumbbell Pairs", 
-            "image_url": "https://poba.me/api/fitnesscenter/images/equipment-4.jpg"
+            "image_url": "/api/fitnesscenter/images/equipment-4.jpg"
         },
         {
             "name": "Bellitron", 
-            "image_url": "https://poba.me/api/fitnesscenter/images/equipment-5.jpg"
+            "image_url": "/api/fitnesscenter/images/equipment-5.jpg"
         },
         {
             "name": "Multi-Function Power Tower", 
-            "image_url": "https://poba.me/api/fitnesscenter/images/equipment-6.jpg"
+            "image_url": "/api/fitnesscenter/images/equipment-6.jpg"
         }
     ]
 }

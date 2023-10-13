@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+
+<head> 
+    <title>Instagram Clone</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+    <link rel="icon" type="image/x-icon" href="images/instagram_favicon.svg">
+ 
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" >
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+ 
+    <div class="container-fluid">
+
+        <div class="row">
+            <!-- sidenav -->
+            <div class="col pt-5">
+                <!-- self created -->
+                <a href="/" class="align-items-center link-dark text-decoration-none"> 
+                    <img src="images/instagram-logo-text.png" alt="" height="40"> 
+                    <!-- <span class="fs-4">Instagram</span> -->
+                </a>
+
+                <!-- https://getbootstrap.com/docs/5.0/components/navs-tabs/#vertical (second block) -->
+                <nav class="nav flex-column pt-5">
+                    <a class="nav-link text-dark"  href="#">
+                        <i class="bi-house-door-fill fs-4 px-2"></i> Home
+                    </a>
+                    <a class="nav-link text-dark" href="#">
+                        <i class="bi-search fs-4 px-2"></i> Search
+                    </a> 
+                    <a class="nav-link text-dark" href="#">
+                        <i class="bi-compass fs-4 px-2"></i> Explore
+                    </a>
+                    <a class="nav-link text-dark" href="#">
+                        <i class="bi-play-btn fs-4 px-2"></i> Reels
+                    </a>
+                    <a class="nav-link text-dark" href="#">
+                        <i class="bi-send fs-4 px-2"></i> Messages
+                    </a>
+                    <a class="nav-link text-dark" href="#">
+                        <i class="bi-heart fs-4 px-2"></i> Notifications
+                    </a>
+                    <a class="nav-link text-dark" href="#">
+                        <i class="bi-plus-square fs-4 px-2"></i> Create
+                    </a>
+                    <a class="nav-link text-dark" href="#">
+                        <i class="bi-person-circle fs-4 px-2"></i> Profile
+                    </a>
+                </nav>
+
+            </div>
+        
+            <!-- for fixed sidebar
+                </div> <div class="row">
+                    <div class="col"></div> -->
+
+            <!-- main content -->
+            <div class="col-6 mt-0 px-5 pt-5 border-start border-1 border-secondary">
+
+                <div class="row">
+                    <div class="col">
+                        <img src="images/profiles/profile-image-5.jpg" class="img-fluid rounded-circle p-1 border border-2 border-danger" style="max-width: 100px;">
+                        <img src="images/profiles/profile-image-4.jpg" class="img-fluid rounded-circle p-1 border border-2 border-warning" style="max-width: 100px;">
+                        <img src="images/profiles/profile-image-3.jpg" class="img-fluid rounded-circle p-1 border border-2 border-success" style="max-width: 100px;">
+                        <img src="images/profiles/profile-image-2.jpg" class="img-fluid rounded-circle p-1 border border-2 border-default" style="max-width: 100px;">
+                        <img src="images/profiles/profile-image-1.jpg" class="img-fluid rounded-circle p-1 border border-2 border-info" style="max-width: 100px;">
+                    </div> 
+                </div>
+ 
+                <div class="post border-top border-1 pt-3 mt-2"> 
+                    <!-- style=" align-items: center; justify-content: space-between;" -->
+                    <div class="d-flex align-items-center  justify-content-start">
+                        <img src="images/profiles/dw.jpg" class="img-fluid rounded-circle" style="max-width: 40px;">
+                        <h6 class="ps-3"> Deutsche Welle 
+                            <br/><small class="text-muted">Original audio</small></h6>  
+                        <!-- <a href="" class="text-right"><i class="bi-three-dots"></i></a> -->
+                    </div>
+
+                    <div class="card border-0">
+                        <img src="images/posts/post-1.jpg" class="card-img-top" alt="..." width="100%">
+                        <div class="card-body">
+                            <!-- <h5 class="card-title">Card title</h5> -->
+                            <i class="bi-heart"></i>
+                            <i class="bi-chat"></i>
+                            <i class="bi-send"></i>
+
+                            <p class="card-text">
+                                Schaut mal, wie schön sich die Bahn hier durch die Stadt schlängelt. Habt einen schönen Start in den Tag und kommt gut
+                                zur Arbeit!
+                            </p>
+                            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="post border-top border-1 pt-3 mt-2">
+                    <!-- style=" align-items: center; justify-content: space-between;" -->
+                    <div class="d-flex align-items-center  justify-content-start">
+                        <img src="images/profiles/dhbw.jpg" class="img-fluid rounded-circle" style="max-width: 40px;">
+                        <h6 class="ps-3"> Duale Hocschule Heilbronn
+                            <br /><small class="text-muted">Original audio</small>
+                        </h6>
+                        <!-- <a href="" class="text-right"><i class="bi-three-dots"></i></a> -->
+                    </div>
+                
+                    <div class="card border-0">
+                        <img src="images/posts/post-2.jpg" class="card-img-top" alt="..." width="100%">
+                        <div class="card-body">
+                            <!-- <h5 class="card-title">Card title</h5> -->
+                            <i class="bi-heart"></i>
+                            <i class="bi-chat"></i>
+                            <i class="bi-send"></i>
+                
+                            <p class="card-text">
+                                Schaut mal, wie schön sich die Bahn hier durch die Stadt schlängelt. Habt einen schönen Start in den Tag
+                                und kommt gut
+                                zur Arbeit!
+                            </p>
+                            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="post border-top border-1 pt-3 mt-2"> 
+                    <!-- style=" align-items: center; justify-content: space-between;" -->
+                    <div class="d-flex align-items-center  justify-content-start">
+                        <img src="images/profiles/city-church.jpg" class="img-fluid rounded-circle" style="max-width: 40px;">
+                        <h6 class="ps-3"> City Church Heilbronn 
+                            <br/><small class="text-muted">Original audio</small></h6>  
+                        <!-- <a href="" class="text-right"><i class="bi-three-dots"></i></a> -->
+                    </div>
+
+                    <div class="card border-0">
+                        <img src="images/posts/post-3.png" class="card-img-top" alt="..." width="100%">
+                        <div class="card-body">
+                            <!-- <h5 class="card-title">Card title</h5> -->
+                            <i class="bi-heart"></i>
+                            <i class="bi-chat"></i>
+                            <i class="bi-send"></i>
+
+                            <p class="card-text">
+                                Wir laden dich ein, mit uns in der Pilgramstraße Gottesdienst zu feiern!
+                            </p>
+                            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="text-center my-3">
+                    <button class="btn btn-outline-secondary">load more posts</button>
+                </div>
+
+            </div>
+
+            <!-- right side bar -->
+            <div class="col pt-5">  
+
+                <!-- <div class="d-flex">  
+                    <i class="bi-person-circle fs-1 text-secondary"></i>
+                    <p class="ps-2">
+                        @angela_merkel
+                        <br/> <small class="text-muted">Angel Merkel</small>
+                    </p> 
+                    <button class="btn btn-link text-decoration-none fw-bold">switch</button>
+                </div> -->
+ 
+                <!-- https://getbootstrap.com/docs/5.2/utilities/flex/#media-object -->
+                <div class="d-flex align-items-center py-2">
+                    <div class="flex-shrink-0">
+                        <i class="bi-person-circle fs-1 text-secondary"></i>
+                    </div>
+                    <div class="flex-grow-1 ms-3">
+                        @angela_merkel
+                        <br /> <small class="text-muted">Angel Merkel</small>
+                    </div>
+                    <button class="btn btn-link btn-sm text-decoration-none fw-bold">switch</button>
+                </div>
+                
+
+                <p class="fw-4 text-muted">Suggested for you</p>
+
+                <!-- https://getbootstrap.com/docs/5.2/utilities/flex/#media-object -->
+                <div class="d-flex align-items-center py-2">
+                    <div class="flex-shrink-0">
+                        <img src="images/profiles/profile-image-1.jpg" class="img-fluid rounded-circle" style="max-width: 50px;">
+                    </div>
+                    <div class="flex-grow-1 ms-3">
+                        Angela merkel
+                        <br/> <small class="text-secondary">follows you</small>
+                    </div>
+                    <button class="btn btn-link btn-sm text-decoration-none fw-bold">follow</button>
+                </div>
+
+                <div class="d-flex align-items-center py-2">
+                    <div class="flex-shrink-0">
+                        <img src="images/profiles/profile-image-2.jpg" class="img-fluid rounded-circle" style="max-width: 50px;">
+                    </div>
+                    <div class="flex-grow-1 ms-3">
+                        Thomas Muller
+                        <br /> <small class="text-secondary">follows you</small>
+                    </div>
+                    <button class="btn btn-link btn-sm text-decoration-none fw-bold">follow</button>
+                </div>
+
+                <div class="d-flex align-items-center py-2">
+                    <div class="flex-shrink-0">
+                        <img src="images/profiles/profile-image-3.jpg" class="img-fluid rounded-circle" style="max-width: 50px;">
+                    </div>
+                    <div class="flex-grow-1 ms-3">
+                        Albert Einsten
+                        <br /> <small class="text-secondary">follows you</small>
+                    </div>
+                    <button class="btn btn-link btn-sm text-decoration-none fw-bold">follow</button>
+                </div>
+
+                <div class="d-flex align-items-center py-2">
+                    <div class="flex-shrink-0">
+                        <img src="images/profiles/profile-image-4.jpg" class="img-fluid rounded-circle" style="max-width: 50px;">
+                    </div>
+                    <div class="flex-grow-1 ms-3">
+                        Bill Gates
+                        <br /> <small class="text-secondary">follows you</small>
+                    </div>
+                    <button class="btn btn-link btn-sm text-decoration-none fw-bold">follow</button>
+                </div>
+                 
+                
+                <p class="mt-5">
+                    <a href="#" class="text-secondary">About</a>
+                    <a href="#" class="text-secondary">Help</a>
+                    <a href="#" class="text-secondary">Press</a>
+                    <a href="#" class="text-secondary">API</a>
+                    <a href="#" class="text-secondary">Jobs</a>
+                    <a href="#" class="text-secondary">Privacy</a>
+                    <a href="#" class="text-secondary">Terms and Imprint</a>
+                    <a href="#" class="text-secondary">Language</a>
+                </p>
+
+                <p class="text-uppercase text-secondary">&copy; 2023 Instagram from Meta</p>
+
+            </div>
+        </div>
+ 
+    </div>
+      
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+ 
+</body>
+</html>
